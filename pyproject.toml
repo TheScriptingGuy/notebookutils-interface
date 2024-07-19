@@ -7,7 +7,6 @@ name = "notebookutils-interface"
 version = "0.1.0"
 description = "A short description of your project."
 authors = [{name = "The Scripting Guy"}]
-license = "MIT"
 keywords = ["notebookutils", "Synapse", "Fabric"]
 classifiers = [
     "Programming Language :: Python :: 3",
