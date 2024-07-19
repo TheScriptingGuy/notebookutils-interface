@@ -1,0 +1,3 @@
+dummy-notebookutils
+pyarrow=15.0.0
+fsspec
