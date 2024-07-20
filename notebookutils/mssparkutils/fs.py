@@ -2,8 +2,35 @@ from fsspec.implementations.arrow import ArrowFSWrapper
 from pyarrow import fs
 from pyarrow.fs import HadoopFileSystem, LocalFileSystem
 
-from notebookutils.custom_mssparkutils.handlers.fsHandler import FileInfo
+from notebookutils.mssparkutils.handlers.fsHandler import FileInfo
 
+
+def help(method_name=None):
+    pass
+
+def mountToDriverNode(source, mountPoint, extraConfigs={}):
+    return False
+
+def unmountFromDriverNode(mountPoint):
+    return False
+
+def mount(source, mountPoint, extraConfigs={}):
+    return False
+
+def unmount(mountPoint, extraOptions={}):
+    return False
+
+def mounts(extraOptions={}):
+    return False
+
+def refreshMounts():
+    return False
+
+def getMountPath(mountPoint, scope=""):
+    return False
+
+def fastcp(src, dest, recurse=True, extraConfigs={}):
+    return False
 
 def get_filesystem() -> tuple[LocalFileSystem, ArrowFSWrapper]:
     local = fs.LocalFileSystem()
