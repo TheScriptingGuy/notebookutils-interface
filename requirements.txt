@@ -1,3 +1,4 @@
 dummy-notebookutils
-pyarrow=15.0.0
+pyarrow==15.0.0
 fsspec
+numpy==1.26.4
