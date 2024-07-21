@@ -1,6 +1,6 @@
 from fsspec.implementations.arrow import ArrowFSWrapper
 from pyarrow import fs
-from pyarrow.fs import HadoopFileSystem, LocalFileSystem
+from pyarrow.fs import LocalFileSystem
 
 from notebookutils.mssparkutils.handlers.fsHandler import FileInfo
 
