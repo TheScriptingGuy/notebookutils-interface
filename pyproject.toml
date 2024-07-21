@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "notebookutils-interface"
-version = "0.2.0"
+version = "0.2.1"
 description = "A short description of your project."
 authors = [{name = "The Scripting Guy"}]
 keywords = ["notebookutils", "Synapse", "Fabric"]
