@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "notebookutils-interface"
-version = "0.2.1"
+version = "0.2.2"
 description = "A short description of your project."
 authors = [{name = "The Scripting Guy"}]
 keywords = ["notebookutils", "Synapse", "Fabric"]
@@ -16,8 +16,8 @@ classifiers = [
 readme = "README.md"
 requires-python = ">=3.6"
 dependencies = [
-    "numpy<=1.26.4",
-    "pyarrow>=9,<=15.0.0",
+    "numpy",
+    "pyarrow>=9,<=16.0.0",
     "fsspec"
 ]
 [project.urls]

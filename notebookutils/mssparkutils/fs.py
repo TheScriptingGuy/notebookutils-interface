@@ -79,6 +79,17 @@ def put(file_path, content, overwrite=False):
             f.write(content.encode('utf-8'))
         print(f"Wrote content to {file_path}")
 
+def exists(file_path):
+    """
+    Checks if a file exists.
+    :param file_path: The path to the file to check.
+    :type file_path: str
+    :return: True if the file exists, False otherwise.
+    :rtype: bool
+    """
+    local, arrowfssystem = get_filesystem()
+    return arrowfssystem.exists(file_path)
+
 def append(file_path, content, create_if_not_exists=False):
     """
     Appends content to a file.
